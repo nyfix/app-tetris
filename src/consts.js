@@ -15,14 +15,14 @@ var rowCount = 20;
 //previewCount
 var previewCount = 6;
 
-//scene gradient start color 
-var sceneBgStart = '#8e9ba6';
+//scene gradient start color
+var sceneBgStart = '#141317';
 
-//scene gradient end color 
-var sceneBgEnd = '#5c6975';
+//scene gradient end color
+var sceneBgEnd = '#4F1317';
 
 //preview background color
-var previewBg = '#2f2f2f';
+var previewBg = '#141317';
 
 //grid line color
 var gridLineColor = 'rgba(255,255,255,0.2)';
@@ -35,8 +35,8 @@ var boxBorderColor = 'rgba(255,255,255,0.5)';
 var defaultInterval = 600;
 
 
-// Level update interval 
-var levelInterval = 120 * 1000; 
+// Level update interval
+var levelInterval = 120 * 1000;
 
 
 

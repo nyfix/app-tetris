@@ -9,26 +9,37 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<div id="snow">
+ </div>
+
+		<div id="header">
+			<img src="img/nyfixtetris.png" width="256px"/>
+		</div>
+
 <div id="tetris">
+
 	<canvas id="scene"></canvas>
+
 	<div id="gameOver">
-		<h1>Game Over !</h1>
-		<h3>Score: <span id="finalScore">0</span></h3>
-		<h2><a href="#" id="restart">Restart</a></h2>
-		
+		<h1>GAME OVER!</h1>
+		<h3>SCORE: <span id="finalScore">0</span></h3>
+		<h2><a href="#" id="restart">RESTART</a></h2>
 	</div>
+
 	<div id="side">
 		<div id="info">
-			<h1 id="levelInfo">Level: <br><span id="level">1</span></h1>
-			<h2 id="scoreInfo">Score: <br><span id="score" >0</span></h2>
+			<h1 id="levelInfo">LEVEL<br><span id="level">1</span></h1>
+			<h2 id="scoreInfo">SCORE<br><span id="score" >0</span></h2>
 			<div id="rewardInfo" class="invisible">+<span id="reward">0</span></div>
 			<canvas id="preview"></canvas>
 		</div>
 	</div>
+
 </div>
 
 
 </body>
+<script src="dist/fallingsnow_v6.js"></script>
 <script src="dist/tetris.js"></script>
 <script>
 	(function(){
